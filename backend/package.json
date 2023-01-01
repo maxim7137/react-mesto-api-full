@@ -8,7 +8,7 @@
     "lint": "npx eslint .",
     "dev": "nodemon server.js",
     "test": "jest",
-    "publish": "scp -r ../backend/* maxim@62.84.126.94:/home/maxim/express-mesto-gha"
+    "publish": "scp -r ./* maxim@62.84.126.94:/home/maxim/express-mesto-gha"
   },
   "repository": {
     "type": "git",
