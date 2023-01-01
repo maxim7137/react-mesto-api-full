@@ -1,0 +1,15 @@
+.profile__name-edit {
+  display: flex;
+  column-gap: 18px;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+@media (max-width: 618px) {
+  .profile__name-edit {
+    justify-content: center;
+    max-width: 282px;
+    min-width: 214px;
+    column-gap: 10px;
+  }
+}

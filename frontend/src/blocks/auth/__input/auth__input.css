@@ -1,0 +1,25 @@
+.auth__input {
+  width: 100%;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+}
+
+.auth__input:focus {
+  border-bottom: 2px solid #fff;
+}
+
+.auth__input:focus-visible {
+  outline: none;
+}
+.auth__input:autofill,
+.auth__input:-webkit-autofill,
+.auth__input:autofill-selected,
+.auth__input:-webkit-autofill-selected {
+  background: none !important;
+  color: #fff !important;
+}

@@ -1,0 +1,19 @@
+.auth__input_error {
+  color: #a52a2a;
+  border-bottom: 2px solid #a52a2a;
+}
+
+.auth__input_error:focus {
+  border-bottom: 2px solid #ff0000;
+}
+
+.auth__input_error:focus-visible {
+  outline: none;
+}
+.auth__input_error:autofill,
+.auth__input_error:-webkit-autofill,
+.auth__input_error:autofill-selected,
+.auth__input_error:-webkit-autofill-selected {
+  background: none !important;
+  color: #ff0000 !important;
+}

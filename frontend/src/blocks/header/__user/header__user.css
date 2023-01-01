@@ -1,0 +1,17 @@
+.header__user {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 618px) {
+  .header__user {
+    flex-wrap: wrap;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__user {
+    margin-right: 27px;
+  }
+}

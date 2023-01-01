@@ -1,0 +1,12 @@
+.profile__pen {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: calc(50% - 13px);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.profile__cover:hover .profile__pen {
+  opacity: 1;
+  cursor: pointer;
+}

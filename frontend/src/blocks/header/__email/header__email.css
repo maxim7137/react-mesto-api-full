@@ -1,0 +1,19 @@
+.header__email {
+  display: inline-block;
+  max-width: 35em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 1em;
+}
+
+@media (max-width: 917px) {
+  .header__email {
+    max-width: 19em;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__email {
+    max-width: 12em;
+  }
+}

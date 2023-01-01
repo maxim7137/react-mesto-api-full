@@ -1,0 +1,13 @@
+.popup__check-text {
+  text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+@media (max-width: 618px) {
+  .popup__check-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

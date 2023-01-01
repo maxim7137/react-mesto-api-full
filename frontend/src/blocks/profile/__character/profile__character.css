@@ -1,0 +1,34 @@
+.profile__character {
+  margin-block-start: 10px;
+  margin-block-end: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 508px;
+}
+
+@media (max-width: 917px) {
+  .profile__character {
+    max-width: 539px;
+    text-align: center;
+    transform: translate(-5%, 0px);
+  }
+}
+
+@media (max-width: 618px) {
+  .profile__character {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.214;
+    max-width: 282px;
+  }
+}
+
+@media (max-width: 425px) {
+  .profile__character {
+    transform: none;
+  }
+}

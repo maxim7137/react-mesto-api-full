@@ -1,0 +1,5 @@
+.popup__form_InfoTool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

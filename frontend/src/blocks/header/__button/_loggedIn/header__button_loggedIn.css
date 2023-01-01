@@ -1,0 +1,10 @@
+.header__button_loggedIn {
+  display: inline-block;
+  color: #a9a9a9;
+}
+
+@media (max-width: 618px) {
+  .header__button_loggedIn {
+    font-size: 14px;
+  }
+}
