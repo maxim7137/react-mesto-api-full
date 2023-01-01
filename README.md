@@ -1,6 +1,6 @@
 # react-mesto-api-full
 
-Репозиторий для приложения проекта `Mesto`, включающий [фронтенд](https://github.com/maxim7137/react-mesto-auth) и [бэкенд](https://github.com/maxim7137/express-mesto-gha) части приложения со следующими возможностями: 
+[Репозиторий](https://github.com/maxim7137/react-mesto-api-full) для приложения проекта `Mesto`, включающий [фронтенд](https://github.com/maxim7137/react-mesto-auth) и [бэкенд](https://github.com/maxim7137/express-mesto-gha) части приложения со следующими возможностями: 
 - авторизации и регистрации пользователей;
 - операции с карточками и пользователями (добавление/удаление карточек и лайков). 
 
