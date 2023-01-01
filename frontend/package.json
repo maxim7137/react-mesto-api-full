@@ -15,6 +15,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prepublish": "npm run build",
+    "publish": "scp -r ./build/* maxim@62.84.126.94:/home/maxim/mesto",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "jest",
