@@ -40,6 +40,7 @@ function EditProfilePopup({ isOpen, onClose, onUpdateUser, closeByClick }) {
       setUserDescription(e.target.value);
     }
   }
+  
   // Обработчик отправки формы
   function handleSubmit(e) {
     // Запрещаем браузеру переходить по адресу формы
