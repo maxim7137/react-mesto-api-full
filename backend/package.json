@@ -7,7 +7,7 @@
     "lint": "npx eslint .",
     "dev": "nodemon server.js",
     "test": "jest",
-    "publish": "scp -r ./controllers ./errors ./middlewares ./models ./routes .env app.js package.json server.js max@51.250.82.119:/home/max/mesto/back"
+    "publish": "scp -r ./controllers ./errors ./middlewares ./models ./routes .env app.js package.json server.js max@51.250.85.5:/home/max/mesto/api"
   },
   "repository": {
     "type": "git",
