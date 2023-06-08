@@ -1,4 +1,7 @@
 # react-mesto-api-full
+- [Пример](https://maxim7137.github.io/mesto/)
+- [Пример на Реакте](https://maxim7137.github.io/mesto-react/)
+- [Пример на Реакте с авторизацией](https://maxim7137.github.io/react-mesto-auth/#/)
 
 [Репозиторий](https://github.com/maxim7137/react-mesto-api-full) для приложения проекта `Mesto`, включающий [фронтенд](https://github.com/maxim7137/react-mesto-auth) и [бэкенд](https://github.com/maxim7137/express-mesto-gha) части приложения со следующими возможностями: 
 - авторизации и регистрации пользователей;
